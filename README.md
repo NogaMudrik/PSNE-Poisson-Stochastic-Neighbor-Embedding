@@ -177,18 +177,6 @@ python dimpo_demo_nonlinear.py
 
 This runs two synthetic datasets (3-group and 4-group XOR) and saves embedding plots, cost convergence curves, and `.npy` files to output subdirectories.
 
----
-
-## Running tests
-
-```bash
-cd dimpo
-python dimpo_test.py
-```
-
-Tests cover: pairwise KL distances, distance matrix computation, probability matrices $S$ and $Q$, Hellinger distance, group-lasso penalty, numerical gradient verification, and end-to-end fitting.
-
----
 
 ## File structure
 
