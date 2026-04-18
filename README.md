@@ -166,7 +166,7 @@ plt.show()
 
 ## Running the demo
 
-The included demo script generates synthetic Poisson data on a Swiss Roll manifold and compares PSNE variants against PCA and t-SNE:
+The included demo script generates synthetic Poisson data on a manifold and compares PSNE variants against baselines:
 
 ```bash
 python psne_demo_nonlinear.py
