@@ -20,7 +20,7 @@ PSNE embeds high-dimensional count matrices (e.g., neural spike counts, scRNA-se
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/psne.git
+git clone https://github.com/NogaMudrik/psne.git
 cd psne
 pip install -r requirements.txt
 ```
