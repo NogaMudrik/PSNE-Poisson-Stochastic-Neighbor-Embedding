@@ -99,7 +99,7 @@ plt.show()
 - Type: `float` or `int` numpy array.
 - Values: non-negative.
 
-Samples are columns, features are rows. The output embedding has shape $(T, \text{n\_components})$ with samples as rows. Remove all-zero samples before fitting.
+Samples are columns, features are rows. The output embedding has shape `(T, n_components)` with samples as rows. Remove all-zero samples before fitting.
 
 ## Parameters
 
@@ -134,7 +134,7 @@ Optimizer:
 
 | Attribute | Shape | Description |
 |---|---|---|
-| `embedding_` | $(\text{n\_components}, T)$ | Learned embedding. `fit_transform` returns the transpose. |
+| `embedding_` | `(n_components, T)` | Learned embedding. `fit_transform` returns the transpose. |
 | `cost_history_` | list | Total cost at each iteration. |
 | `hellinger_history_` | list | Hellinger distance at each iteration. |
 | `D_` | $(T, T)$ | Poisson KL distance matrix. |
