@@ -9,12 +9,11 @@ PSNE embeds high-dimensional count matrices (e.g. neural spike counts,  text cor
 If you use this code, please cite:
 
 ```bibtex
-@article{mudrik2026psne,
+@article{mudrik2026neighbor,
   title={Neighbor Embedding for High-Dimensional Sparse Poisson Data},
-  author={Mudrik, Noga and Charles, Adam S.},
+  author={Mudrik, Noga and Charles, Adam S},
   journal={arXiv preprint arXiv:2604.16932},
-  year={2026},
-  url={https://arxiv.org/abs/2604.16932}
+  year={2026}
 }
 ```
 
