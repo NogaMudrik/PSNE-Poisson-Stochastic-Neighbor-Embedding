@@ -16,6 +16,7 @@ If you use this code, please cite:
   year={2026}
 }
 ```
+You can find the arXiv at: https://arxiv.org/abs/2604.16932
 
 ## Method
 
