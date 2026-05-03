@@ -2,7 +2,21 @@
 
 Dimensionality reduction for Poisson count data.
 
-PSNE embeds high-dimensional count matrices (e.g. neural spike counts, scRNA-seq, text corpora) into 2D or 3D. It preserves pairwise structure via a Poisson KL divergence and a Hellinger-distance cost.
+PSNE embeds high-dimensional count matrices (e.g. neural spike counts,  text corpora) into 2D or 3D. It preserves pairwise structure via a Poisson KL divergence and a Hellinger-distance cost.
+
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@article{mudrik2026psne,
+  title={Neighbor Embedding for High-Dimensional Sparse Poisson Data},
+  author={Mudrik, Noga and Charles, Adam S.},
+  journal={arXiv preprint arXiv:2604.16932},
+  year={2026},
+  url={https://arxiv.org/abs/2604.16932}
+}
+```
 
 ## Method
 
